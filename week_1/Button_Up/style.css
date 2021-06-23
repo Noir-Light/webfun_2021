@@ -1,0 +1,42 @@
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.button1{
+    background-color: aliceblue;
+    border: turquoise;
+    color: turquoise;
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 30px;
+}
+
+.button2{
+    background-color: turquoise;
+    border: turquoise;
+    color: white;
+    padding: 20px;
+    text-decoration: solid;
+    display: block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 50%;
+}
+
+.button3{   
+    background-color: dodgerblue;
+    border: black;
+    color: white;
+    padding: 20px;
+    text-decoration: solid;
+    display: block;
+    font-size: 16px;
+    margin: 3px 1px;
+    border-radius: 0px;
+    box-shadow: 10px 5px 5px black;
+}
