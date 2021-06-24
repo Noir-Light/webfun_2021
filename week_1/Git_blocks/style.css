@@ -1,0 +1,53 @@
+/* CSS REST */
+*{
+    /* margin: 0; */
+    /* padding: 0; */
+}
+
+h1{
+    font-size: 80;
+    text-align: center;
+}
+
+.container{
+    width: 800px;
+    background-color:aqua;
+    margin: 0;
+    /* padding: 0; */
+    min-height: auto;
+}
+
+.row1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 780px;
+    background-color:dodgerblue;
+    padding: 2px;
+    margin-left: 7px;
+    margin-bottom: 20px;
+}
+.row2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 690px;
+    background-color: red;
+    padding-left: 34px;
+    padding-right: 60px;
+    margin-left: 7px;
+    margin-bottom: 20px;
+}
+.row3{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;       
+    background-color: white;
+    padding: 2px;
+    margin-left: 8px;
+    padding-right: 4px;
+}
+
+.a{
+    text-align: center;
+}

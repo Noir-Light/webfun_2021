@@ -1,0 +1,62 @@
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    background-color: darkslategray;
+    margin: 0px;
+    padding: 15px;
+}
+
+.nav-title{
+    list-style-type: none;
+    width: 0px;
+    height: 0px;
+    padding-right: 0px;
+    color: white;
+    text-align: top;
+
+}
+
+.nav-links{
+    list-style-type: none;
+    align-items: top;
+    display: inline-block;
+    justify-content: center;
+    color: white;
+}
+
+.active{
+    color: white;
+}
+
+.nav-links > li{
+    display: inline-block;
+    justify-content: space-between;
+    margin: 8px;
+    padding: 0px;
+    color: white;
+    text-decoration: white;
+}
+
+.btn{
+    box-shadow: black;
+    color:white;
+    background-color: blue;
+}
+
+ul li{
+    color: white;
+    text-decoration: none;
+}
+
+ul li a:link{
+    color: white;
+    text-decoration: none;
+}
+
