@@ -1,0 +1,215 @@
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    background-color: darkslategray;
+    margin: 0px;
+    padding: 15px;
+}
+
+.nav-title{
+    list-style-type: none;
+    width: 0px;
+    height: 0px;
+    padding-right: 0px;
+    color: white;
+    text-align: top;
+
+}
+
+.nav-links{
+    list-style-type: none;
+    align-items: top;
+    display: inline-block;
+    justify-content: center;
+    color: white;
+}
+
+.active{
+    color: white;
+}
+
+.nav-links > li{
+    display: inline-block;
+    justify-content: space-between;
+    margin: 8px;
+    padding: 0px;
+    color: white;
+    text-decoration: white;
+}
+
+.btn{
+    box-shadow: black;
+    color:white;
+    background-color: blue;
+}
+
+ul li{
+    color: white;
+    text-decoration: none;
+}
+
+ul li a:link{
+    color: white;
+    text-decoration: none;
+
+
+}
+.container{
+    display: inline-block;
+    margin-left: 24px;
+    margin-right: 26px;
+
+}
+
+
+.topbar{
+    background-color: dodgerblue;
+    margin: 0px;
+    padding: 0px;
+    width: 370px;
+    height: 98px;
+    margin-top: 21px;
+}
+
+
+.border{
+    border-style: solid;
+    border-color: lightslategray;
+    margin-right: 1px;
+    padding: 5px;
+    display: inline-block;
+    width: 355px;
+    margin-bottom: 0px;
+    height: 220px;
+}
+
+
+.location{
+    height: 165;
+}
+
+
+
+h2{
+    margin: 0px;
+    padding: 0px;
+}
+
+.side{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+}
+
+
+.edit{
+    margin-left: 0px;
+}
+
+
+.sidebar{
+    display: inline-block;
+    top: 100px;
+    width: 400px;
+    height: 500px;
+    background-color: aliceblue;
+}
+
+
+.container2{
+    display: flex;
+    height: 24px;
+    display: inline-block;
+    width: 26px;
+    vertical-align: top;
+}
+
+
+.profileimage{
+    margin-top: 48px;
+    margin-left: 10px;
+}
+
+.border > h1{
+    margin-top: 35px;
+}
+
+
+.sidebars{
+    display: inline-block;
+    min-height: 160px;
+    width: 276px;
+    padding: 20px 15px;
+    background-color: white);
+    text-align: left;
+    vertical-align: top;
+    margin-left: 147px;
+}
+
+
+.request{
+    background-color: black;
+    color: white;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+
+
+.connect{
+    background-color: black;
+    color: white;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.connections{
+    height: 214px;
+    width: 277px;
+    margin: 110px;
+    background-color: white;
+    text-align: left;
+    margin-left: 151px;
+    padding: 10px;
+}
+
+
+.border1{
+    border-style: solid;
+    border-color: lightslategray;
+    margin-right: 1px;
+    padding: 5px;
+    display: inline-block;
+    width: 355px;
+    margin-bottom: 0px;
+    height: 220px;
+}
+
+
+.border2{
+        border-style: solid;
+        border-color: lightslategray;
+        margin-right: 1px;
+        padding: 5px;
+        display: inline-block;
+        width: 355px;
+        margin-bottom: 0px;
+        height: 220px;
+}
+
+
+.education{
+    width: 270px;
+    height: 248px;
+    background-color: white;
+    padding: 20px;
+    margin-top: 107px;
+}
