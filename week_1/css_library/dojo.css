@@ -1,0 +1,99 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  /* Fixed width container class that will "auto-center" itself */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.btn{
+    background-color: turquoise;
+    border: turquoise;
+    color: white;
+    padding: 20px;
+    text-decoration: solid;
+    display: block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 50%;
+}
+
+.row{
+    display: flex;
+}
+
+.col{
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+    background-color: blueviolet;
+}
+
+.col-2{
+    flex: 2;
+    padding: 20px;
+    margin: 10px;
+    background-color: indigo;
+}
+
+.nav{
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    background-color: darkslategray;
+    margin: 0px;
+    padding: 15px;
+}
+
+.nav-title{
+    list-style-type: none;
+    width: 0px;
+    height: 0px;
+    padding-right: 0px;
+    color: white;
+    text-align: top;
+
+}
+
+.nav-links{
+    list-style-type: none;
+    align-items: top;
+    display: inline-block;
+    justify-content: center;
+    color: white;
+}
+
+.active{
+    color: white;
+}
+
+.nav-links > li{
+    display: inline-block;
+    justify-content: space-between;
+    margin: 8px;
+    padding: 0px;
+    color: white;
+    text-decoration: white;
+}
+
+.btn1{
+    box-shadow: black;
+    color:white;
+    background-color: blue;
+}
+
+ul > li{
+    color: white;
+    text-decoration: none;
+}
+
+ul > li a:link{
+    color: white;
+    text-decoration: none;
+}
+

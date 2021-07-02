@@ -1,0 +1,187 @@
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0px;
+}
+
+.container{
+    width: 1200px;
+    height: 1200px;
+    background-color: white;
+    margin-left: 250px;
+}
+
+.leaf{
+    background-color: turquoise;
+}
+
+.cart,
+.nav{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: white;
+    margin-left: -87px;
+}
+
+.nav-title{
+    font-family: 'comfortaa', cursive;
+padding-left: 10px;
+}
+
+.search-box{
+    width: 395px;
+    display: flex;
+    position: relative;
+    border-radius: 25%;
+    justify-content: space-around;
+    padding: 12px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 7px -34px;
+    border-radius: 30px;
+    height: 0px;
+}
+
+
+.navbar{
+    display: flex;
+    color: black;
+    justify-content: space-around;
+    margin-top: 30px;
+    border-bottom: solid black;
+    margin-bottom: 10px;
+    margin-right: 190px;
+}
+
+
+
+h2{
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 38px;
+    margin-bottom: 20px;
+    font-size: xx-large;
+    padding-right: 185px;
+}
+
+.banner1{
+    display: flex;
+    /* outline: 1px solid black; */
+    width: 96%;
+    margin-left: 50px;
+}
+
+p1{
+    display: inline-block;
+    background-color:turquoise;
+    height: 162px;
+    width: 162px;
+    color: white;
+    padding: 81px;
+    font-size: larger;
+}
+
+.arrow{
+    margin-top: 109px;
+    vertical-align: bottom;
+    margin-left: 0px;
+    margin-bottom: -22px;
+}
+
+h4{
+    background-color: turquoise;
+    margin: 10px 0px 0px 0px;
+    display: flex;
+    color: white;
+    padding: 9px;
+}
+
+.arrow1{
+    vertical-align: middle;
+    margin-top: -4px;
+}
+
+.banner-2{
+    background-color: lightskyblue;
+    /* outline: 1px solid black;  */
+    width: 50%;
+    margin-left: 48px;
+}
+
+.row{
+    display: flex;
+    margin: 5px;
+    background-color: lightskyblue;
+    justify-content: space-around;
+    width: 145.5%;
+    margin-left: 6%;
+    margin-bottom: 0px;
+}
+
+.aloe{
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+.img-1{
+    border-radius: 50%;
+}
+
+.banner-2-1{
+    display: flex;
+    background-color: lightskyblue;
+    width: 151.5%;
+}
+
+.aeo{
+    margin-left: 78px;
+}
+
+.alo{
+    margin-left: 100px;
+}
+
+.cac{
+    margin-left: 107px;
+}
+
+.eche{
+    margin-left: 93px;
+}
+
+.sed{
+    margin-left: 94px;
+}
+
+.semp{
+    margin-left: 76px;
+}
+
+.triangle_icon{
+    margin-right: 15px;
+}
+
+.alert{
+    position: fixed;
+    width: 57.1%;
+    height: 113px;
+    padding: 20px;
+    background-color: white;
+    color: black;
+    margin-bottom: 15px;
+    align-items: center;
+    top: 583px;
+    outline: 2px solid black;
+}
+
+.btn2{
+    box-shadow: black;
+    width: 100px;
+    height: 25px;
+    background-color: turquoise;
+    outline: 2px solid black;
+}
