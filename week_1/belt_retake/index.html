@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pet Shelter</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="navbar">
+                <div>
+                    <img src="heart-light.png" alt="heart" class="heart" height="45px" width="45px">
+                    <h1>Pet Shelter</h1>
+                    <h3>Find a Pet</h3>
+                    <h3>About</h3>
+                    <button onclick="hide(this)" class="donate">Donate</button>
+                </div>
+                <p>I'm looking for a...</p>
+                <img src="paw-light.png" alt="paw" class="paw" height="35px" width="35px">
+                <select name="dropbox" id="dropbox" onclick="alert('You are looking for a:Dog')">
+                    <option>Any Pet</option>
+                    <option>Dog</option>
+                    <option>Cat</option>
+                </select>
+                <p1>in or near...</p1>
+                <img src="pin-light.png" alt="location" class="location" height="20px" width="25px">
+                <input type="text" name="city or zipcode" id="textbox">
+                <button class="find">Find your new best friend</button>
+            </div>
+            <div class="banner">
+                <img src="pepper.jpg" alt="pepper" height="55px" width="55px">
+                <h1-1>Pepper</h1-1>
+                <p-2>Pepper is a slightly shy grey tabby,but she really loves showing her human affection.</p-2>
+                <h4>3 petting(s)</h4>
+                <button onclick="countLikes(this)" class="likes">Pet Pepper</button>
+            </div>
+            <div class="banner">
+                <img src="bruce.jpg" alt="bruce" height="55px" width="55px">
+                <h1-1>Bruce</h1-1>
+                <p-2> Bruce is a loyal companion. He loves long walks and cold weather.</p-2>
+                <h4>5 petting(s)</h4>
+                <button onclick="countLikes(this)" class="likes">Pet Bruce</button>
+            </div>
+            <div class="banner">
+                <img src="oscar.jpg" alt="oscar" height="55px" width="55px">
+                <h1-1>Oscar</h1-1>
+                <p-2> Oscar is bright, energetic and friendly. He is looking for a good home.</p-2>
+                <h4>8 petting(s)</h4>
+                <button onclick="countLikes(this)" class="likes">Pet Oscar</button>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

@@ -8,7 +8,7 @@
     display: flex;
     align-items: top;
     justify-content: space-between;
-    background-color: darkslategray;
+    background-color: black;
     margin: 0px;
     padding: 15px;
 }
@@ -20,6 +20,7 @@
     padding-right: 0px;
     color: white;
     text-align: top;
+    margin-left: 82px;
 }
 
 .nav-links{
@@ -47,6 +48,8 @@
     box-shadow: black;
     color:white;
     background-color: blue;
+    margin-left: 589px;
+    margin-right: 250px;
 }
 
 ul li{
@@ -119,6 +122,14 @@ h2{
     display: inline-block;
     width: 26px;
     vertical-align: top;
+}
+
+.accept{
+    margin-left: 195px;
+}
+
+.accept1{
+    margin-left: 201px;
 }
 
 .profileimage{

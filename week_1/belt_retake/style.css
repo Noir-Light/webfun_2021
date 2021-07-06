@@ -1,0 +1,135 @@
+/* CSS RESET */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    height: 1000px;
+    width: 1200px;
+    outline: 1px solid black;
+}
+
+.wrapper{
+    width: 550px;
+    min-height: 250px;
+}
+
+.navbar{
+    display: inline-block;
+    margin: 0px 0px 0px 0px;
+    background-color: rgb(89, 180, 180);
+    outline-color: 1px solid black;
+    width: 838px;
+    margin-left: 11px;
+}
+
+.heart{
+    margin: 8px 3px 0px 70px;
+    margin-left: 50px;
+    margin-top: 17px;
+
+}
+
+h1{
+    display: inline-block;
+    color: white;
+    margin: 15px 150px -50px 18px;
+}
+
+
+h3{
+    color: black;
+    display: inline-block;
+    margin: 0px 44px 0px 0px;
+}
+
+p{
+    margin: 27px 0px 0px 77px;
+    color: white;
+}
+
+.paw{
+    margin: 0px 0px 0px 73px;
+}
+
+
+
+#dropbox{
+    margin: 0px 21px 13px 0px;
+    height: 22px;
+    width: 92px;
+}
+
+p1{
+    margin: 0px 0px 0px 25px;
+    color: white;
+}
+
+.location{
+    margin-left: 43px;
+    margin-bottom: -6px;
+}
+
+.find{
+    background-color: blueviolet;
+    color: white;
+    margin-left: 91px;
+}
+
+.donate{
+    border-radius: 37%;
+    color: rgb(172, 59, 172);
+    width: 103px;
+    height: 32px;
+    margin-left: 61px;
+    margin-left: 61px;
+}
+
+.row{
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.banner{
+    margin-left: 50px;
+    margin-top: 12px;
+}
+
+.cat{
+    margin: 0px 0px 0px 0px;
+    display: inline-block;
+    background-color: aqua;
+    box-shadow: 2px solid black;
+    color: white;
+    width: 148px;
+}
+
+h1-1{
+    margin: 14px 0px 0px 14px; 
+    font-size: larger;
+    color: black;
+}
+
+
+.likes{
+    margin-bottom: 15px;
+    width: 186px;
+    height: 25px;
+    font-size: 15px;
+    background-color:aqua;
+    outline: .5px solid black;
+    box-shadow: 2px 2px 0px 0px black;
+    justify-content: right;
+    margin-left: 580px;
+}
+
+p-2{
+    margin-left: 12px;
+}
+
+h4{
+    margin-left: 707px;
+    margin-top: -71px;
+}
