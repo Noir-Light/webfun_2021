@@ -35,8 +35,8 @@
                 <button onclick="makeSmall()">Small</button>
                 <button onclick="makeNormal()">Normal</button>
                 <br><br>
-                <video id="video1"
-                    src="https://player.vimeo.com/external/387258975.sd.mp4?s=ec0eb7fdf62882d8baec68aa3d37db69c1bf3003&profile_id=139&oauth2_token_id=57447761">
+                <video muted id="video1"
+                onmouseover="play(this)" onmouseout="pause(this)" src="https://player.vimeo.com/external/387258975.sd.mp4?s=ec0eb7fdf62882d8baec68aa3d37db69c1bf3003&profile_id=139&oauth2_token_id=57447761">
                 </video>
             </div>
             <title>Placeholder</title>
@@ -55,7 +55,7 @@
                         <span class="user-name">Example User Name</span>
                     </div>
                 </div>
-                <button class="btn">Subscribe</button>
+                <button class="btn1">Subscribe</button>
             </div>
 
         </div>
@@ -86,6 +86,14 @@
             </div>
 
         </div>
+
+    </div>
+
+    <div class="alert">
+        <img src="alert-dark.png" alt="triangle_icon" class="triangle_icon">
+        <p>This site makes use of third party cookies, by clicking "I accept"
+            you agree to the terms outlined in our <a href="#">cookies policy</a></p>
+        <button onclick="this.parentElement.style.display='none';" class="btn2">I accept</button>
 
     </div>
 
