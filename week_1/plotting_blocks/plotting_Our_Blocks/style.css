@@ -4,9 +4,9 @@
     padding: 0px;
 }
 .container{
-    width: 950px;
+    width: 895px;
     background-color: silver;
-    margin: 20px auto;
+    margin: 20px;
     padding: 50px;
 }
 .top-nav {
@@ -33,8 +33,8 @@
     margin: 17px;
 }
 .sub-content {
-    height: 200px;
-    width: 210px;
+    height: 180px;
+    width: 200px;
     background-color: yellow;
     margin: auto;
     padding: auto;
@@ -44,8 +44,8 @@
     margin-left: 7px;
 }
 #advertisement {
-    height: 120px;
-    width: 648px;
+    height: 98px;
+    width: 623px;
     background-color: purple;
     margin-left: 9px;
     margin-top: 9px;

@@ -1,12 +1,15 @@
 /* CSS RESET */
 .container{
-    width: 950px;
+    width: 930px;
     background-color: silver;
-    margin: 0px auto;
+    margin-left: 35px;
+    padding: 15px 0px 15px 27px;
 }
+
+
 .top-nav {
     height: 150px;
-    width: 95%;
+    width: 97.1%;
     background-color: green;
     margin: 0px;
     padding: 0px;
@@ -48,7 +51,6 @@
     padding: 0px;
 }
 .row {
-    display: flex;
-    /* TODO - what should go here? */
+    flex: 1;
 }
 
