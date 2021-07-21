@@ -3,8 +3,21 @@
     margin: 0px;
     padding: 0px;
 }
+
+body{
+    margin: 50px;
+}
+
+.profileimage{
+    border: 5px solid white;
+    background-color: aqua;
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+}
+
 .container{
-    display: inline-block;
+    display: flex;
     margin-left: 74px;
 
 }
@@ -12,24 +25,40 @@
 
 .border{
     border-style: solid;
-    border-color: lightslategray;
+    border-color: darkslategray;
     margin-right: 134px;
-    width: 847px;
+    width: 643px;
+    height: 366px;
 }
 
 
-header{
+.header{
     background-color: dodgerblue;
-    margin: -44px;
-    padding: 66px;
-    width: 214%;
+    padding: 40px;
+    width: 563px;
     margin-top: 4px;
+    height: 10px;
+}
+
+h1{
+    margin-top: 50px;
+    margin-left: 34px;
+}
+
+.map{
+    width: 12px;
+    height: 15px;
+    margin-left: 34px;
 }
 
 
 h2{
     margin: 0px;
     padding: 0px;
+}
+
+h3{
+    margin-left: 34px; 
 }
 
 .side{
@@ -41,5 +70,10 @@ h2{
 
 
 .edit{
-    margin-left: 74px;
+    margin-left: 34px;
+}
+
+.gear{
+    width: 12px;
+    height: 12px;
 }
