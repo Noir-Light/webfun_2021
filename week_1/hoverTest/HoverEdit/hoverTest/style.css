@@ -1,0 +1,17 @@
+/* CSS RESET */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#image-rollover {
+    background-image: url('kitsune1.jpg');
+    background-size: cover;
+    height: 800px;
+    width: 800px;
+    }
+
+#image-rollover:hover {
+    background-image: url('kitsune2.jfif');
+    }

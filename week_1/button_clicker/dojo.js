@@ -30,3 +30,6 @@ function hide(element) {
     element.remove()
 }
 
+function myAlert(){
+    alert('This page says Ninja was liked')
+}

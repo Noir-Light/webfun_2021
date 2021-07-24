@@ -1,0 +1,14 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: royalblue;
+}
+
+#myImg{
+    height: 400px;
+    width: 400px;
+}
+
